@@ -1,0 +1,49 @@
+.clear{
+    width:100%;
+    background: #222;
+}
+.mytitle{
+    display: inline-block;
+}
+footer{
+    width:100%;
+    background: #222;
+    color: white;;
+}
+@media (max-width: 900px) {
+    .aas{
+        float: right;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        font-size: 14px;
+        margin-left: 6px;
+    }
+    .ssss{
+        display: none;
+    }
+    .right1{
+        float: right;
+    }
+    .mytab{
+        margin-top: 10px;
+    }
+    .left1{
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+.a,.b{
+    padding-left:0px;
+    padding-right:0px;
+
+}
+.sssadas{
+    background:url("../image/bannerbg.png") no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.def{
+    padding-top:50px;
+}
