@@ -55,8 +55,6 @@
             background: url(img/4_08.jpg);
             background-size: contain;
             display: inline-block;
-            width: 9.8rem;
-            height: 4rem;
             line-height:4rem;
             text-align: center;
             margin: 0.5rem  0.55rem;
@@ -80,7 +78,6 @@
         .section3{
             font-size: 1.8rem;
         }
-
         .pan-body{
             margin:-0.1rem 1.177rem;
             background-color:#FFDC4E;
@@ -89,15 +86,19 @@
         .pan-body ul{
             background: #FFFFFF;
         }
-
         .pan-body  li {
             list-style-type: none;
             margin:0;
             padding:0;
             border-bottom:2px #eff4f7 solid;
             width:31rem;
+
+            padding-left:1rem;
+        }
+        .pan-body .li{
             background:url("img/9_14.jpg")  no-repeat 29rem;
             background-size: 1rem ;
+
         }
         .inline-block{
             display: inline-block;
@@ -110,10 +111,17 @@
         .hp{
             color:#DE3a38;
         }
-        .hps:nth-child(1){
+        .hps{
             padding-top:2rem;
         }
-
+        footer{
+            font-size: 1.2rem;
+            padding:0;
+            margin:0;
+        }
+        footer p{
+            padding:1rem 0;
+        }
     </style>
 </head>
 <body>
@@ -155,43 +163,46 @@
         <img class="img3" src="img/8_02.jpg" alt="">
         <div class="pan-body">
             <ul>
-                <li>
+                <li class="li">
                     <div class="hp hps">财务/审计</div>
                     <div class="inline-block">会计师</div>
                     <div class="inline-block">出纳</div>
                 </li>
-                <li>
+                <li class="li">
                     <div class="hp">财务/审计</div>
                     <div class="inline-block">会计师</div>
                     <div class="inline-block">出纳</div>
                 </li>
-                <li>
+                <li class="li">
                     <div class="hp">财务/审计</div>
                     <div class="inline-block">会计师</div>
                     <div class="inline-block">出纳</div>
                 </li>
-                <li>
+                <li class="li">
                     <div class="hp">财务/审计</div>
                     <div class="inline-block">会计师</div>
                     <div class="inline-block">出纳</div>
                 </li>
-                <li>
+                <li class="li">
                     <div class="hp">财务/审计</div>
                     <div class="inline-block">会计师</div>
                     <div class="inline-block">出纳</div>
                 </li>
-                <li>
+                <li class="li">
                     <div class="hp">财务/审计</div>
                     <div class="inline-block">会计师</div>
                     <div class="inline-block">出纳</div>
+                </li>
+                <li class="text-center">
+                    <p style="color: #DC8006;">24小时反馈，<span style="color: #DE3839;">更多急速入职机会</span></p>
                 </li>
             </ul>
         </div>
-        <!--底部标题-->
-        <div class="panel-footer">
-        </div>
     </div>
 </section>
+<footer class="text-center">
+    <p style="color: #BF191B;">@58.com 帮助中心</p>
+</footer>
 </body>
 
 <script src="js/jquery-1.12.4.js"></script>
